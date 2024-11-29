@@ -85,10 +85,11 @@ Ensure `joblib` is installed.
 ## Model Analysis
 - Use the `importance` mode to analyze model features and transitions.
 
-Original dataset Excluding DATASET.txt: https://github.com/silnrsi/khmerlbdict/tree/master
 ---
 I just want to break things down and see how things are constructed. khmernltk is a great tool that produces 
-higher quality results but I want to see how much I can do with limited data. The algorithm works perfect except the data. With more refined words from other sources, the results will be better.
+higher quality results but I want to see how much I can do with limited data. The algorithm works perfect except the data. With more refined words from other sources, the results will be better. 
+
+Original dataset Excluding DATASET.txt: https://github.com/silnrsi/khmerlbdict/tree/master
 
 Further:
 I will try to do Byte Pair Encoding next.
