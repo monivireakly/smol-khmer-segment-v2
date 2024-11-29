@@ -1,0 +1,297 @@
+python3 main.py 
+Loaded 46442 words from dictionary
+Created 15481 training samples
+
+Training started...
+loading training data to CRFsuite: 100%|█| 15481/15481 [00:14<00:00, 1095.75it
+
+Feature generation
+type: CRF1d
+feature.minfreq: 3.000000
+feature.possible_states: 1
+feature.possible_transitions: 1
+0....1....2....3....4....5....6....7....8....9....10
+Number of features: 46116
+Seconds required: 10.762
+
+L-BFGS optimization
+c1: 0.100000
+c2: 0.050000
+num_memories: 6
+max_iterations: 164
+epsilon: 0.000000
+stop: 10
+delta: 0.000010
+linesearch: MoreThuente
+linesearch.max_iterations: 20
+
+Iter 1   time=3.76  loss=133489.26 active=45350 feature_norm=0.00
+Iter 2   time=0.26  loss=126624.91 active=42227 feature_norm=0.00
+Iter 3   time=0.25  loss=122586.88 active=41470 feature_norm=0.00
+Iter 4   time=0.28  loss=120808.18 active=45640 feature_norm=0.00
+Iter 5   time=0.26  loss=116509.74 active=45466 feature_norm=0.00
+Iter 6   time=0.26  loss=112697.74 active=45525 feature_norm=0.00
+Iter 7   time=0.26  loss=102879.17 active=45750 feature_norm=0.00
+Iter 8   time=0.78  loss=102628.97 active=45874 feature_norm=0.00
+Iter 9   time=0.51  loss=102357.60 active=45953 feature_norm=0.00
+Iter 10  time=0.52  loss=100994.46 active=46056 feature_norm=0.00
+Iter 11  time=0.79  loss=100454.73 active=46051 feature_norm=0.00
+Iter 12  time=0.79  loss=100446.43 active=46084 feature_norm=0.00
+Iter 13  time=0.80  loss=100075.32 active=46080 feature_norm=0.00
+Iter 14  time=0.52  loss=99978.92 active=46076 feature_norm=0.00
+Iter 15  time=0.26  loss=99949.47 active=46047 feature_norm=0.00
+Iter 16  time=0.26  loss=99256.99 active=46064 feature_norm=0.00
+Iter 17  time=0.26  loss=99036.96 active=46054 feature_norm=0.00
+Iter 18  time=0.26  loss=98660.66 active=46068 feature_norm=0.00
+Iter 19  time=0.52  loss=98262.95 active=46070 feature_norm=0.00
+Iter 20  time=0.50  loss=98258.88 active=46059 feature_norm=0.00
+Iter 21  time=0.52  loss=98000.51 active=46058 feature_norm=0.00
+Iter 22  time=0.51  loss=97905.51 active=46061 feature_norm=0.00
+Iter 23  time=0.51  loss=97786.95 active=46061 feature_norm=0.00
+Iter 24  time=0.52  loss=97628.35 active=46060 feature_norm=0.00
+Iter 25  time=0.26  loss=97370.82 active=46041 feature_norm=0.00
+Iter 26  time=0.53  loss=97230.29 active=46048 feature_norm=0.00
+Iter 27  time=0.78  loss=97040.42 active=46037 feature_norm=0.00
+Iter 28  time=0.80  loss=96980.45 active=46019 feature_norm=0.00
+Iter 29  time=0.79  loss=96886.58 active=46058 feature_norm=0.00
+Iter 30  time=0.79  loss=96804.34 active=46050 feature_norm=0.00
+Iter 31  time=0.78  loss=96731.83 active=46054 feature_norm=0.00
+Iter 32  time=0.52  loss=96638.59 active=46042 feature_norm=0.00
+Iter 33  time=0.51  loss=96613.40 active=46033 feature_norm=0.00
+Iter 34  time=0.51  loss=96476.29 active=46030 feature_norm=0.00
+Iter 35  time=0.51  loss=96473.03 active=46036 feature_norm=0.00
+Iter 36  time=0.51  loss=96343.76 active=46041 feature_norm=0.00
+Iter 37  time=0.80  loss=96314.34 active=46047 feature_norm=0.00
+Iter 38  time=0.83  loss=96283.19 active=46044 feature_norm=0.00
+Iter 39  time=0.28  loss=96128.95 active=46019 feature_norm=0.00
+Iter 40  time=0.81  loss=96074.40 active=46031 feature_norm=0.00
+Iter 41  time=0.81  loss=96066.79 active=46048 feature_norm=0.00
+Iter 42  time=0.85  loss=95977.50 active=46046 feature_norm=0.00
+Iter 43  time=0.82  loss=95977.49 active=46047 feature_norm=0.00
+Iter 44  time=0.81  loss=95901.69 active=46049 feature_norm=0.00
+Iter 45  time=1.10  loss=95879.07 active=46050 feature_norm=0.00
+Iter 46  time=0.81  loss=95867.42 active=46046 feature_norm=0.00
+Iter 47  time=0.81  loss=95854.86 active=46041 feature_norm=0.00
+Iter 48  time=0.55  loss=95854.52 active=46039 feature_norm=0.00
+Iter 49  time=0.54  loss=95813.73 active=46039 feature_norm=0.00
+Iter 50  time=0.51  loss=95803.27 active=46025 feature_norm=0.00
+Iter 51  time=0.53  loss=95773.81 active=46019 feature_norm=0.00
+Iter 52  time=0.52  loss=95755.03 active=46019 feature_norm=0.00
+Iter 53  time=0.51  loss=95737.77 active=46006 feature_norm=0.00
+Iter 54  time=0.52  loss=95712.95 active=45997 feature_norm=0.00
+Iter 55  time=0.50  loss=95698.09 active=45989 feature_norm=0.00
+Iter 56  time=0.53  loss=95680.28 active=45981 feature_norm=0.00
+Iter 57  time=0.51  loss=95657.26 active=45976 feature_norm=0.00
+Iter 58  time=0.54  loss=95645.35 active=45975 feature_norm=0.00
+Iter 59  time=0.50  loss=95630.12 active=45960 feature_norm=0.00
+Iter 60  time=0.52  loss=95598.95 active=45953 feature_norm=0.00
+Iter 61  time=0.51  loss=95594.12 active=45948 feature_norm=0.00
+Iter 62  time=0.52  loss=95553.39 active=45942 feature_norm=0.00
+Iter 63  time=0.51  loss=95529.72 active=45939 feature_norm=0.00
+Iter 64  time=0.50  loss=95515.85 active=45925 feature_norm=0.00
+Iter 65  time=0.51  loss=95507.67 active=45924 feature_norm=0.00
+Iter 66  time=0.52  loss=95462.21 active=45916 feature_norm=0.00
+Iter 67  time=0.76  loss=95439.60 active=45920 feature_norm=0.00
+Iter 68  time=0.76  loss=95428.85 active=45913 feature_norm=0.00
+Iter 69  time=0.77  loss=95413.81 active=45906 feature_norm=0.00
+Iter 70  time=0.51  loss=95396.03 active=45891 feature_norm=0.00
+Iter 71  time=0.49  loss=95379.08 active=45874 feature_norm=0.00
+Iter 72  time=0.49  loss=95352.27 active=45863 feature_norm=0.00
+Iter 73  time=0.49  loss=95328.68 active=45872 feature_norm=0.00
+Iter 74  time=0.49  loss=95293.57 active=45870 feature_norm=0.00
+Iter 75  time=0.49  loss=95275.19 active=45870 feature_norm=0.00
+Iter 76  time=0.49  loss=95240.07 active=45866 feature_norm=0.00
+Iter 77  time=0.52  loss=95225.32 active=45869 feature_norm=0.00
+Iter 78  time=0.52  loss=95196.32 active=45865 feature_norm=0.00
+Iter 79  time=0.51  loss=95186.50 active=45866 feature_norm=0.00
+Iter 80  time=0.55  loss=95151.03 active=45861 feature_norm=0.00
+Iter 81  time=0.52  loss=95146.51 active=45855 feature_norm=0.00
+Iter 82  time=0.51  loss=95104.24 active=45857 feature_norm=0.00
+Iter 83  time=0.27  loss=95054.95 active=45850 feature_norm=0.00
+Iter 84  time=0.52  loss=95001.01 active=45845 feature_norm=0.00
+Iter 85  time=0.79  loss=94962.42 active=45849 feature_norm=0.00
+Iter 86  time=0.79  loss=94941.65 active=45843 feature_norm=0.00
+Iter 87  time=0.81  loss=94904.96 active=45841 feature_norm=0.00
+Iter 88  time=0.76  loss=94877.98 active=45840 feature_norm=0.00
+Iter 89  time=0.78  loss=94841.11 active=45839 feature_norm=0.00
+Iter 90  time=0.55  loss=94818.13 active=45828 feature_norm=0.00
+Iter 91  time=0.54  loss=94762.50 active=45825 feature_norm=0.00
+Iter 92  time=0.52  loss=94724.72 active=45826 feature_norm=0.00
+Iter 93  time=0.53  loss=94666.15 active=45824 feature_norm=0.01
+Iter 94  time=0.53  loss=94609.30 active=45825 feature_norm=0.01
+Iter 95  time=0.50  loss=94541.49 active=45822 feature_norm=0.01
+Iter 96  time=0.52  loss=94454.45 active=45822 feature_norm=0.01
+Iter 97  time=0.52  loss=94367.39 active=45818 feature_norm=0.01
+Iter 98  time=0.55  loss=94229.16 active=45817 feature_norm=0.02
+Iter 99  time=0.51  loss=94107.38 active=45819 feature_norm=0.02
+Iter 100 time=0.54  loss=93906.19 active=45807 feature_norm=0.02
+Iter 101 time=0.53  loss=93690.28 active=45803 feature_norm=0.03
+Iter 102 time=0.50  loss=93385.22 active=45801 feature_norm=0.04
+Iter 103 time=0.49  loss=93009.32 active=45802 feature_norm=0.05
+Iter 104 time=0.50  loss=92526.55 active=45799 feature_norm=0.07
+Iter 105 time=0.50  loss=91828.29 active=45811 feature_norm=0.10
+Iter 106 time=0.52  loss=91061.19 active=45801 feature_norm=0.13
+Iter 107 time=0.54  loss=89719.89 active=45820 feature_norm=0.18
+Iter 108 time=0.50  loss=88535.15 active=45829 feature_norm=0.25
+Iter 109 time=0.57  loss=86078.56 active=45877 feature_norm=0.33
+Iter 110 time=0.57  loss=84531.34 active=45886 feature_norm=0.46
+Iter 111 time=0.28  loss=82702.16 active=45916 feature_norm=0.73
+Iter 112 time=0.28  loss=78056.73 active=45922 feature_norm=1.03
+Iter 113 time=0.27  loss=74257.29 active=45957 feature_norm=1.16
+Iter 114 time=0.28  loss=71836.55 active=45976 feature_norm=1.47
+Iter 115 time=0.28  loss=68536.83 active=45977 feature_norm=1.57
+Iter 116 time=0.28  loss=67877.64 active=45988 feature_norm=1.82
+Iter 117 time=0.26  loss=65704.73 active=45997 feature_norm=1.91
+Iter 118 time=0.27  loss=65090.60 active=45991 feature_norm=2.10
+Iter 119 time=0.28  loss=63873.97 active=45993 feature_norm=2.21
+Iter 120 time=0.28  loss=63323.24 active=45997 feature_norm=2.43
+Iter 121 time=0.29  loss=61909.78 active=45995 feature_norm=2.59
+Iter 122 time=0.28  loss=61603.12 active=45998 feature_norm=2.87
+Iter 123 time=0.28  loss=60080.68 active=46002 feature_norm=3.07
+Iter 124 time=0.27  loss=59560.13 active=46000 feature_norm=3.44
+Iter 125 time=0.28  loss=58141.13 active=46004 feature_norm=3.69
+Iter 126 time=0.28  loss=57617.75 active=45997 feature_norm=4.11
+Iter 127 time=0.28  loss=56427.06 active=46001 feature_norm=4.41
+Iter 128 time=0.28  loss=55858.08 active=45999 feature_norm=4.87
+Iter 129 time=0.27  loss=54897.33 active=45999 feature_norm=5.25
+Iter 130 time=0.28  loss=54343.86 active=46004 feature_norm=5.80
+Iter 131 time=0.28  loss=53554.57 active=46000 feature_norm=6.22
+Iter 132 time=0.27  loss=53023.35 active=46002 feature_norm=6.72
+Iter 133 time=0.28  loss=52400.19 active=46003 feature_norm=7.14
+Iter 134 time=0.28  loss=51900.83 active=45999 feature_norm=7.75
+Iter 135 time=0.28  loss=51354.61 active=46001 feature_norm=8.30
+Iter 136 time=0.28  loss=50821.42 active=45999 feature_norm=9.03
+Iter 137 time=0.30  loss=50366.15 active=46002 feature_norm=9.83
+Iter 138 time=0.28  loss=49735.95 active=46001 feature_norm=10.56
+Iter 139 time=0.27  loss=49262.79 active=45999 feature_norm=10.96
+Iter 140 time=0.27  loss=48608.76 active=46001 feature_norm=11.46
+Iter 141 time=0.28  loss=48072.92 active=45994 feature_norm=12.06
+Iter 142 time=0.29  loss=47378.38 active=46001 feature_norm=12.82
+Iter 143 time=0.29  loss=46781.60 active=46003 feature_norm=13.82
+Iter 144 time=0.27  loss=45937.13 active=46005 feature_norm=15.07
+Iter 145 time=0.28  loss=45244.58 active=45998 feature_norm=16.67
+Iter 146 time=0.28  loss=44354.93 active=46004 feature_norm=17.72
+Iter 147 time=0.27  loss=43515.85 active=46000 feature_norm=18.78
+Iter 148 time=0.27  loss=42512.24 active=46002 feature_norm=19.93
+Iter 149 time=0.27  loss=41659.31 active=45992 feature_norm=21.59
+Iter 150 time=0.27  loss=40627.87 active=45996 feature_norm=23.84
+Iter 151 time=0.27  loss=39745.41 active=45996 feature_norm=25.53
+Iter 152 time=0.27  loss=38986.71 active=45992 feature_norm=27.63
+Iter 153 time=0.26  loss=38147.81 active=45995 feature_norm=30.02
+Iter 154 time=0.27  loss=37358.54 active=45989 feature_norm=32.93
+Iter 155 time=0.26  loss=36522.53 active=45990 feature_norm=35.70
+Iter 156 time=0.27  loss=35824.10 active=45987 feature_norm=38.28
+Iter 157 time=0.26  loss=35135.61 active=45988 feature_norm=41.25
+Iter 158 time=0.26  loss=34342.03 active=45987 feature_norm=44.67
+Iter 159 time=0.26  loss=33375.50 active=45899 feature_norm=49.12
+Iter 160 time=0.27  loss=32482.52 active=45657 feature_norm=54.67
+Iter 161 time=0.27  loss=31772.14 active=44907 feature_norm=59.98
+Iter 162 time=0.28  loss=31014.10 active=44010 feature_norm=67.44
+Iter 163 time=0.27  loss=30319.33 active=43852 feature_norm=74.75
+Iter 164 time=0.28  loss=29701.33 active=43365 feature_norm=83.70
+L-BFGS terminated with the maximum number of iterations
+Total seconds required for training: 79.470
+
+Storing the model
+Number of active features: 43365 (46116)
+Number of active attributes: 36089 (79474)
+Number of active labels: 2 (2)
+Writing labels
+Writing attributes
+Writing feature references for transitions
+Writing feature references for attributes
+Seconds required: 0.084
+
+
+Training Metrics:
+--------------------------------------------------
+Total training samples: 15481
+Total features: 43361
+F1 Score: 0.9564
+Model saved to khmer_segmenter.joblib
+
+Segmenting: ខ្ញុំឈ្មោះសុខា
+
+Debug Information:
+Characters | Labels
+------------------------------
+    ខ      |   B   
+    ្      |   O   
+    ញ      |   O   
+    ុ      |   O   
+    ំ      |   O   
+    ឈ      |   B   
+    ្      |   O   
+    ម      |   O   
+    ោ      |   O   
+    ះ      |   O   
+    ស      |   B   
+    ុ      |   O   
+    ខ      |   O   
+    ា      |   O   
+Word break after: ខ្ញុំ
+Word break after: ឈ្មោះ
+
+Final segmentation after rules:
+ខ្ញុំ | ឈ្មោះ | សុខា
+
+Segmenting: ខ្ញុំស្រលាញ់ប្រទេសកម្ពុជា
+
+Debug Information:
+Characters | Labels
+------------------------------
+    ខ      |   B   
+    ្      |   O   
+    ញ      |   O   
+    ុ      |   O   
+    ំ      |   O   
+    ស      |   B   
+    ្      |   O   
+    រ      |   O   
+    ល      |   O   
+    ា      |   O   
+    ញ      |   O   
+    ់      |   O   
+    ប      |   B   
+    ្      |   O   
+    រ      |   O   
+    ទ      |   O   
+    េ      |   O   
+    ស      |   O   
+    ក      |   O   
+    ម      |   O   
+    ្      |   O   
+    ព      |   O   
+    ុ      |   O   
+    ជ      |   O   
+    ា      |   O   
+Word break after: ខ្ញុំ
+Word break after: ស្រលាញ់
+
+Final segmentation after rules:
+ខ្ញុំ | ស្រលាញ់ | ប្រទេសកម្ពុជា
+
+Segmenting: សូមជួយខ្ញុំផង
+
+Debug Information:
+Characters | Labels
+------------------------------
+    ស      |   B   
+    ូ      |   O   
+    ម      |   O   
+    ជ      |   B   
+    ួ      |   O   
+    យ      |   O   
+    ខ      |   B   
+    ្      |   O   
+    ញ      |   O   
+    ុ      |   O   
+    ំ      |   O   
+    ផ      |   B   
+    ង      |   O   
+Word break after: សូម
+Word break after: ជួយ
+Word break after: ខ្ញុំ
+
+Final segmentation after rules:
+សូម | ជួយ | ខ្ញុំ | ផង
