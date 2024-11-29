@@ -76,15 +76,6 @@ Ensure `joblib` is installed.
 - Numbers and foreign words need special handling.
 ---
 
-## Debug Mode
-- **`labeling`**: Analyze feature labeling.
-- **`importance`**: Examine feature importance.
-
----
-
-## Model Analysis
-- Use the `importance` mode to analyze model features and transitions.
-
 ---
 I just want to break things down and see how things are constructed. khmernltk is a great tool that produces 
 higher quality results but I want to see how much I can do with limited data. The algorithm works perfect except the data. With more refined words from other sources, the results will be better. 
